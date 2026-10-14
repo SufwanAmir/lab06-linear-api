@@ -1,0 +1,7 @@
+services:
+  linear-api:
+    image: sufwanamir/linear-api:1.0
+    container_name: lab06-linear-api
+    ports:
+      - "5000:5000"
+    restart: unless-stopped
